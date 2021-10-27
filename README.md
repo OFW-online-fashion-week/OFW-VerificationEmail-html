@@ -1,5 +1,4 @@
-# Respository명
-OFW-VerificationEmail-html
+# OFW-VerificationEmail-html
 ---
 
 ## 사용 기술
