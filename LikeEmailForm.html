@@ -71,7 +71,7 @@
                                 <table align="left">
                                     <tr>
                                         <td width="487px" heigth="70px" style="padding: 0 0 0 33px; font-family:Roboto; font-style: normal; font-weight: 400;font-size: 30px; line-height: 35px; color: #000000;">
-                                            Explain
+                                            A new collection from the brand you like has been released.
                                         </td>
                                     </tr>
                                 </table>
@@ -95,7 +95,8 @@
                                 <table align="left">
                                     <tr>
                                         <td style="padding: 78px 0 0 80px;">
-                                            <button style="background: #000000; width: 658px; height: 78px;">
+                                            <!-- Confirm Button-->
+                                            <button style="background: #000000; width: 658px; height: 78px;" onclick="ClickedConfirmButton(this)"">
                                                 <table align="left" >
                                                     <tr>
                                                         <td heigth="79px" width="658px" style="font-style: normal; font-weight: normal; font-size: 30px;line-height: 35px; align-items: center; text-align: center; color: #ffffff;">
@@ -126,6 +127,12 @@
                     </table>
                 </td>
             </tr>
+            <script>
+                // 버튼이 눌러졌을 때 실행할 함수
+                function ClickedConfirmButton(button){
+                    alert(button.value + "버튼을 눌렀습니다.");
+                }
+            </script>
         </table>
     </body>
 </html>
